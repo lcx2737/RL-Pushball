@@ -4,7 +4,8 @@ import tensorflow as tf
 import time
 import pickle
 import sys
-sys.path.append('C:\\Users\\成蹊\\Desktop\\毕设\\maddpg-master')
+sys.path.append('C:\\Users\\成蹊\\Desktop\\repo\\maddpg-master')
+sys.path.append('C:\\Users\\成蹊\\Desktop\\repo\\multiagent-particle-envs-master')
 import maddpg.common.tf_util as U
 from maddpg.trainer.maddpg import MADDPGAgentTrainer
 import tensorflow.contrib.layers as layers
