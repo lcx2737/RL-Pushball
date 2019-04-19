@@ -4,9 +4,9 @@ import tensorflow as tf
 import time
 import pickle
 import sys
-sys.path.append('C:\\Users\\成蹊\\Desktop\\毕设\\maddpg-master')
-import maddpg.common.tf_util as U
-from maddpg.trainer.maddpg import MADDPGAgentTrainer
+sys.path.append('C:\\Users\\成蹊\\Desktop\\repo\\可视化')
+import tf_util as U
+from maddpg import MADDPGAgentTrainer
 import tensorflow.contrib.layers as layers
 
 THRESHOLD = -3
